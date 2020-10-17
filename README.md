@@ -29,7 +29,7 @@ the location and choose `Yes` to create the directory.
    new `external_lbrs` folder.
 7. Restart Eagle. The library should be now be usable. 
 
-#Included:
+### Included:
 
 1500 - Original Trinket 3V  
 1501 - Original Trinket 5V  
