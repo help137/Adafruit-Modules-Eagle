@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -173,7 +173,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Adafruit Microcontrolers and Breakout Boards</description>
+<description>Symbols and Footprints for Adafruit Microcontrolers and Breakout Boards to allow adding to PCB layouts.</description>
 <packages>
 <package name="ITSY-M0">
 <description>Adafruit ItsyBitsy M0 Express</description>
@@ -728,7 +728,7 @@
 <pad name="+5V" x="16.51" y="17.78" drill="0.8" shape="long"/>
 </package>
 <package name="ITSY-M0-NOEND">
-<description>Adafruit Itsy Bitsy M0</description>
+<description>&lt;b&gt;Adafruit Itsy Bitsy M0&lt;/b&gt; (No end pins)</description>
 <pad name="RX0" x="10.16" y="7.62" drill="1.1"/>
 <pad name="2" x="10.16" y="-7.62" drill="1.1"/>
 <pad name="TX1" x="7.62" y="7.62" drill="1.1"/>
@@ -776,6 +776,1010 @@
 <wire x1="7.62" y1="-8.89" x2="11.43" y2="-8.89" width="0.3048" layer="21"/>
 <wire x1="11.43" y1="-8.89" x2="11.43" y2="-5.08" width="0.3048" layer="21"/>
 </package>
+<package name="FEATHER-BASIC">
+<description>Adafruit Feather - Basic Layout</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="D4" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="(A1)" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="(A0)" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-M0">
+<description>Adafruit Feather - M0 Layout</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="GND2" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="(A1)" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="(A0)" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-328P">
+<description>Adafruit Feather - 328P</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="7" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="2" x="3.81" y="10.16" drill="1.1"/>
+<pad name="3" x="1.27" y="10.16" drill="1.1"/>
+<pad name="4" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MISO" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MOSI" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A7" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A6" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-HUZZAH">
+<description>Adafruit Feather Huzzah</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="16" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="CHPD" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="15" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="2" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="0" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="13" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="14" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="NC5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="NC4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="NC3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="NC2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="NC1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="ADC" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="NC" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-M0-WIFI">
+<description>Adafruit Feather - WiFi Layout</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="WAKE" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="(A1)" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="(A0)" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="26.67" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="26.67" y1="11.43" x2="27.94" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="26.67" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="26.67" y1="-11.43" x2="27.94" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="26.67" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="26.67" y1="-11.43" x2="27.94" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="27.94" y1="10.16" x2="26.67" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="26.67" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="25.4" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="25.4" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-HUZZAH32">
+<description>Adafruit Feather Huzzah32</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="32" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="21" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="15" x="8.89" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="33" x="6.35" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="27" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="14" x="13.97" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="NC" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-WICED">
+<description>Adafruit Feather WICED
+
+(WARNING - UNTESTED: Verify all connections)</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="C5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="DFU" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="A15" x="8.89" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="B5" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="C7" x="11.43" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="B4" x="6.35" y="10.16" drill="1.1"/>
+<pad name="A4" x="3.81" y="10.16" drill="1.1"/>
+<pad name="SWDIO" x="1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A1" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A2" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="C2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="C3" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="WAKE" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="RTC" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+<pad name="SWCLK" x="1.27" y="7.62" drill="1.1"/>
+<text x="-7.62" y="-6.35" size="1.27" layer="51">WARNING: UNTESTED
+Verify all connections!</text>
+</package>
+<package name="FEATHER-NRF52840">
+<description>Adafruit Feather nRF52840</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="D2" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-NRF52">
+<description>Adafruit Feather nRF52</description>
+<pad name="TXD" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="30" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="RXD" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="DFU" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="11" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="27" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="31" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="7" x="3.81" y="10.16" drill="1.1"/>
+<pad name="15" x="1.27" y="10.16" drill="1.1"/>
+<pad name="16" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="3V_" x="-13.97" y="-10.16" drill="1.1" shape="octagon"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-32U4-BTLE">
+<description>Adafruit Feather 32u4</description>
+<pad name="0RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="1TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="DFU" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-M0-BTLE">
+<description>Adafruit Feather M0 BLE</description>
+<pad name="0RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="1TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="DFU" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="(A1)" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="(A0)" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-32U4-FONA">
+<description>Adafruit Feather 32u4 FONA</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="KEY" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MISO" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MOSI" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="31.75" y1="11.43" x2="34.29" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="34.29" y1="11.43" x2="35.56" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="35.56" y1="10.16" x2="35.56" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="31.75" y1="-11.43" x2="34.29" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="34.29" y1="-11.43" x2="35.56" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="35.56" y1="-10.16" x2="35.56" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="34.29" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="34.29" y1="-11.43" x2="35.56" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="35.56" y1="-10.16" x2="35.56" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="35.56" y1="10.16" x2="34.29" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="34.29" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="33.02" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="33.02" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+</package>
+<package name="FEATHER-32U4-LORA">
+<description>Adafruit Feather 32u4 LoRa</description>
+<pad name="RX" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="IO1" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MI" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MO" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+<pad name="IO2" x="24.13" y="3.81" drill="1.1"/>
+<pad name="IO3" x="24.13" y="1.27" drill="1.1"/>
+</package>
+<package name="FEATHER-M0-LORA">
+<description>Adafruit Feather M0 LoRa</description>
+<pad name="RX0" x="13.97" y="-10.16" drill="1.1"/>
+<pad name="6" x="11.43" y="10.16" drill="1.1"/>
+<pad name="RST" x="-19.05" y="-10.16" drill="1.1"/>
+<pad name="TX1" x="16.51" y="-10.16" drill="1.1"/>
+<pad name="IO1" x="19.05" y="-10.16" drill="1.1"/>
+<pad name="EN" x="-6.35" y="10.16" drill="1.1"/>
+<pad name="GND" x="-11.43" y="-10.16" drill="1.1"/>
+<pad name="10" x="6.35" y="10.16" drill="1.1"/>
+<pad name="SCL" x="16.51" y="10.16" drill="1.1"/>
+<pad name="5" x="13.97" y="10.16" drill="1.1"/>
+<pad name="SDA" x="19.05" y="10.16" drill="1.1"/>
+<pad name="USB" x="-3.81" y="10.16" drill="1.1"/>
+<pad name="9" x="8.89" y="10.16" drill="1.1"/>
+<pad name="BAT" x="-8.89" y="10.16" drill="1.1" shape="square"/>
+<pad name="11" x="3.81" y="10.16" drill="1.1"/>
+<pad name="12" x="1.27" y="10.16" drill="1.1"/>
+<pad name="13" x="-1.27" y="10.16" drill="1.1"/>
+<pad name="MIS" x="11.43" y="-10.16" drill="1.1"/>
+<pad name="MOS" x="8.89" y="-10.16" drill="1.1"/>
+<pad name="SCK" x="6.35" y="-10.16" drill="1.1"/>
+<pad name="A5" x="3.81" y="-10.16" drill="1.1"/>
+<pad name="A4" x="1.27" y="-10.16" drill="1.1"/>
+<pad name="A3" x="-1.27" y="-10.16" drill="1.1"/>
+<pad name="A2" x="-3.81" y="-10.16" drill="1.1"/>
+<pad name="A1" x="-6.35" y="-10.16" drill="1.1"/>
+<pad name="A0" x="-8.89" y="-10.16" drill="1.1"/>
+<pad name="3V" x="-16.51" y="-10.16" drill="1.1" shape="octagon"/>
+<pad name="AREF" x="-13.97" y="-10.16" drill="1.1"/>
+<circle x="-24.13" y="6.35" radius="1.016" width="0" layer="21"/>
+<text x="1.27" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="10.16" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-24.13" y2="11.43" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-24.13" y1="11.43" x2="-21.59" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-25.4" y2="-10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="11.43" x2="24.13" y2="11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="11.43" x2="25.4" y2="10.16" width="0.3048" layer="21" curve="-90"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="21.59" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="21"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="21" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="-7.62" width="0.3048" layer="21"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.3048" layer="51"/>
+<wire x1="-25.4" y1="-10.16" x2="-24.13" y2="-11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="-24.13" y1="-11.43" x2="24.13" y2="-11.43" width="0.3048" layer="51"/>
+<wire x1="24.13" y1="-11.43" x2="25.4" y2="-10.16" width="0.3048" layer="51" curve="90"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.3048" layer="51"/>
+<wire x1="25.4" y1="10.16" x2="24.13" y2="11.43" width="0.3048" layer="51" curve="90"/>
+<wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.3048" layer="51"/>
+<wire x1="-24.13" y1="11.43" x2="-25.4" y2="10.16" width="0.3048" layer="51" curve="90"/>
+<circle x="22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="8.89" radius="1.27" width="0.127" layer="51"/>
+<circle x="-22.86" y="-8.89" radius="1.27" width="0.127" layer="51"/>
+<wire x1="-26.035" y1="3.81" x2="-20.32" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-20.32" y1="-3.81" x2="-26.035" y2="-3.81" width="0.3048" layer="51"/>
+<wire x1="-26.035" y1="-3.81" x2="-26.035" y2="3.81" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-10.541" y2="10.795" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="10.795" x2="-18.669" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="10.795" x2="-10.541" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="5.715" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-18.669" y1="3.175" x2="-17.78" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-17.78" y1="3.175" x2="-17.78" y2="5.715" width="0.3048" layer="51"/>
+<wire x1="-10.541" y1="3.175" x2="-11.43" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="3.175" x2="-11.43" y2="5.715" width="0.3048" layer="51"/>
+<text x="-23.495" y="0" size="1.27" layer="51" rot="R90" align="center">USB</text>
+<text x="-16.51" y="7.62" size="1.27" layer="51">BATT</text>
+<pad name="IO3" x="24.13" y="3.81" drill="1.1"/>
+<pad name="IO5" x="24.13" y="1.27" drill="1.1"/>
+<pad name="IO2" x="24.13" y="6.35" drill="1.1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ITSY-M0">
@@ -785,7 +1789,7 @@
 <wire x1="43.18" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
 <pin name="BAT" x="-30.48" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="sup" rot="R270"/>
+<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="USB" x="-20.32" y="20.32" length="middle" direction="out" rot="R270"/>
 <pin name="13" x="-15.24" y="20.32" length="middle" rot="R270"/>
 <pin name="12" x="-10.16" y="20.32" length="middle" rot="R270"/>
@@ -802,7 +1806,7 @@
 <pin name="3" x="48.26" y="5.08" length="middle" rot="R180"/>
 <pin name="SWCLK" x="48.26" y="0" length="middle" rot="R180"/>
 <pin name="SWDIO" x="48.26" y="-5.08" length="middle" rot="R180"/>
-<pin name="EN" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="EN" x="48.26" y="-10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="MISO" x="30.48" y="-20.32" length="middle" rot="R90"/>
 <pin name="MOSI" x="25.4" y="-20.32" length="middle" rot="R90"/>
 <pin name="SCK" x="20.32" y="-20.32" length="middle" rot="R90"/>
@@ -815,7 +1819,7 @@
 <pin name="VHI" x="-15.24" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="AREF" x="-20.32" y="-20.32" length="middle" direction="in" rot="R90"/>
 <pin name="3V" x="-25.4" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="RST" x="-30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" length="middle" direction="pas" rot="R90"/>
 <pin name="2" x="35.56" y="-20.32" length="middle" rot="R90"/>
 <text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
@@ -826,7 +1830,7 @@
 <wire x1="43.18" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
 <pin name="BAT" x="-30.48" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="sup" rot="R270"/>
+<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="USB" x="-20.32" y="20.32" length="middle" direction="out" rot="R270"/>
 <pin name="13" x="-15.24" y="20.32" length="middle" rot="R270"/>
 <pin name="12" x="-10.16" y="20.32" length="middle" rot="R270"/>
@@ -842,7 +1846,7 @@
 <pin name="4" x="48.26" y="10.16" length="middle" rot="R180"/>
 <pin name="6" x="48.26" y="5.08" length="middle" rot="R180"/>
 <pin name="8" x="48.26" y="0" length="middle" rot="R180"/>
-<pin name="GND3" x="48.26" y="-5.08" length="middle" direction="sup" rot="R180"/>
+<pin name="GND@3" x="48.26" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="EN" x="48.26" y="-10.16" length="middle" rot="R180"/>
 <pin name="MISO" x="30.48" y="-20.32" length="middle" rot="R90"/>
 <pin name="MOSI" x="25.4" y="-20.32" length="middle" rot="R90"/>
@@ -853,10 +1857,10 @@
 <pin name="A2" x="0" y="-20.32" length="middle" rot="R90"/>
 <pin name="A1" x="-5.08" y="-20.32" length="middle" rot="R90"/>
 <pin name="A0" x="-10.16" y="-20.32" length="middle" rot="R90"/>
-<pin name="GND2" x="-15.24" y="-20.32" length="middle" direction="sup" rot="R90"/>
+<pin name="GND@2" x="-15.24" y="-20.32" length="middle" direction="pwr" rot="R90"/>
 <pin name="AREF" x="-20.32" y="-20.32" length="middle" direction="in" rot="R90"/>
 <pin name="5V" x="-25.4" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="RST" x="-30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" length="middle" direction="pas" rot="R90"/>
 <pin name="3V" x="35.56" y="-20.32" length="middle" direction="out" rot="R90"/>
 <text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
@@ -867,7 +1871,7 @@
 <wire x1="43.18" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
 <pin name="BAT" x="-30.48" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="sup" rot="R270"/>
+<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="USB" x="-20.32" y="20.32" length="middle" direction="out" rot="R270"/>
 <pin name="13" x="-15.24" y="20.32" length="middle" rot="R270"/>
 <pin name="12" x="-10.16" y="20.32" length="middle" rot="R270"/>
@@ -883,7 +1887,7 @@
 <pin name="4" x="48.26" y="10.16" length="middle" rot="R180"/>
 <pin name="6" x="48.26" y="5.08" length="middle" rot="R180"/>
 <pin name="8" x="48.26" y="0" length="middle" rot="R180"/>
-<pin name="GND3" x="48.26" y="-5.08" length="middle" direction="sup" rot="R180"/>
+<pin name="GND@3" x="48.26" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="EN" x="48.26" y="-10.16" length="middle" rot="R180"/>
 <pin name="MISO" x="30.48" y="-20.32" length="middle" rot="R90"/>
 <pin name="MOSI" x="25.4" y="-20.32" length="middle" rot="R90"/>
@@ -897,8 +1901,8 @@
 <pin name="VHI" x="-15.24" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="AREF" x="-20.32" y="-20.32" length="middle" direction="in" rot="R90"/>
 <pin name="3V" x="-25.4" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="RST" x="-30.48" y="-20.32" length="middle" rot="R90"/>
-<pin name="GND2" x="35.56" y="-20.32" length="middle" direction="sup" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" length="middle" direction="pas" rot="R90"/>
+<pin name="GND@2" x="35.56" y="-20.32" length="middle" direction="pwr" rot="R90"/>
 <text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="ITSY-M4">
@@ -908,7 +1912,7 @@
 <wire x1="43.18" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
 <pin name="BAT" x="-30.48" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="sup" rot="R270"/>
+<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="USB" x="-20.32" y="20.32" length="middle" direction="out" rot="R270"/>
 <pin name="13" x="-15.24" y="20.32" length="middle" rot="R270"/>
 <pin name="12" x="-10.16" y="20.32" length="middle" rot="R270"/>
@@ -925,7 +1929,7 @@
 <pin name="3" x="48.26" y="5.08" length="middle" rot="R180"/>
 <pin name="SWCLK" x="48.26" y="0" length="middle" rot="R180"/>
 <pin name="SWDIO" x="48.26" y="-5.08" length="middle" rot="R180"/>
-<pin name="EN" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="EN" x="48.26" y="-10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="MISO" x="30.48" y="-20.32" length="middle" rot="R90"/>
 <pin name="MOSI" x="25.4" y="-20.32" length="middle" rot="R90"/>
 <pin name="SCK" x="20.32" y="-20.32" length="middle" rot="R90"/>
@@ -938,7 +1942,7 @@
 <pin name="VHI" x="-15.24" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="AREF" x="-20.32" y="-20.32" length="middle" direction="in" rot="R90"/>
 <pin name="3V" x="-25.4" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="RST" x="-30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" length="middle" direction="pas" rot="R90"/>
 <pin name="2" x="35.56" y="-20.32" length="middle" rot="R90"/>
 <text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
@@ -949,7 +1953,7 @@
 <wire x1="22.86" y1="-10.16" x2="22.86" y2="17.78" width="0.254" layer="94"/>
 <wire x1="22.86" y1="17.78" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
 <pin name="VCC" x="-17.78" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND" x="-12.7" y="-15.24" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="-12.7" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="WP" x="-7.62" y="-15.24" length="middle" direction="pas" rot="R90"/>
 <pin name="SCL" x="-2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="SDA" x="2.54" y="-15.24" length="middle" rot="R90"/>
@@ -965,7 +1969,7 @@
 <wire x1="22.86" y1="-10.16" x2="22.86" y2="17.78" width="0.254" layer="94"/>
 <wire x1="22.86" y1="17.78" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
 <pin name="VCC" x="-17.78" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND" x="-12.7" y="-15.24" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="-12.7" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="HOLD" x="-7.62" y="-15.24" length="middle" direction="pas" rot="R90"/>
 <pin name="SCK" x="-2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="MISO" x="2.54" y="-15.24" length="middle" rot="R90"/>
@@ -980,7 +1984,7 @@
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="7.62" width="0.254" layer="94"/>
 <wire x1="15.24" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
-<pin name="GND" x="12.7" y="10.16" length="short" direction="sup" rot="R270"/>
+<pin name="GND" x="12.7" y="10.16" length="short" direction="pwr" rot="R270"/>
 <pin name="A2" x="-2.54" y="-7.62" length="short" rot="R90"/>
 <pin name="A3" x="2.54" y="-7.62" length="short" rot="R90"/>
 <pin name="A4" x="7.62" y="-7.62" length="short" rot="R90"/>
@@ -1004,7 +2008,7 @@
 <pin name="A0" x="7.62" y="-7.62" length="short" rot="R90"/>
 <pin name="A1" x="12.7" y="-7.62" length="short" rot="R90"/>
 <pin name="SCL" x="-7.62" y="-7.62" length="short" rot="R90"/>
-<pin name="GND" x="-12.7" y="-7.62" length="short" direction="sup" rot="R90"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pwr" rot="R90"/>
 <pin name="VDD" x="-17.78" y="-7.62" length="short" direction="pwr" rot="R90"/>
 <pin name="A2" x="17.78" y="-7.62" length="short" rot="R90"/>
 </symbol>
@@ -1015,7 +2019,7 @@
 <wire x1="7.62" y1="20.32" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="20.32" x2="-7.62" y2="0" width="0.254" layer="94"/>
 <pin name="OUT" x="0" y="-5.08" length="middle" direction="out" rot="R90"/>
-<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="5.08" y="-5.08" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 <symbol name="TEMT6000">
@@ -1024,7 +2028,7 @@
 <wire x1="7.62" y1="0" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-5.08" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" length="middle" direction="pwr" rot="R90"/>
 <pin name="SIG" x="-5.08" y="-5.08" length="middle" direction="out" rot="R90"/>
 <pin name="VCC" x="5.08" y="-5.08" length="middle" direction="pwr" rot="R90"/>
 </symbol>
@@ -1035,7 +2039,7 @@
 <wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <pin name="VBAT" x="-10.16" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="B4" x="0" y="-15.24" length="middle" rot="R90"/>
 <pin name="B3" x="5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="B2" x="5.08" y="15.24" length="middle" rot="R270"/>
@@ -1053,7 +2057,7 @@
 <wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <pin name="VBAT" x="-10.16" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="B4" x="0" y="-15.24" length="middle" rot="R90"/>
 <pin name="B3" x="5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="B2" x="5.08" y="15.24" length="middle" rot="R270"/>
@@ -1071,7 +2075,7 @@
 <wire x1="43.18" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
 <pin name="BAT" x="-30.48" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="sup" rot="R270"/>
+<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="USB" x="-20.32" y="20.32" length="middle" direction="out" rot="R270"/>
 <pin name="13" x="-15.24" y="20.32" length="middle" rot="R270"/>
 <pin name="12" x="-10.16" y="20.32" length="middle" rot="R270"/>
@@ -1096,16 +2100,528 @@
 <pin name="VHI" x="-15.24" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="AREF" x="-20.32" y="-20.32" length="middle" direction="in" rot="R90"/>
 <pin name="3V" x="-25.4" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="RST" x="-30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" length="middle" direction="pas" rot="R90"/>
 <pin name="2" x="35.56" y="-20.32" length="middle" rot="R90"/>
 <text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_BASIC">
+<description>Adafruit Feather Basic</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="D4" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A1)" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A0)" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_M0">
+<description>Adafruit Feather M0</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="GND@2" x="45.72" y="-20.32" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A1)" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A0)" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.794" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_328P">
+<description>Adafruit Feather 328P</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="4" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="3" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="7" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MISO" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A7" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A6" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="-5.08" y="0" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_HUZZAH">
+<description>Adafruit Feather Huzzah ESP8266</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="14" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="13" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="15" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="0" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="16" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="2" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="CHPD" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="NC5" x="15.24" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="NC4" x="10.16" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="NC3" x="5.08" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="NC2" x="0" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="NC1" x="-5.08" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="ADC" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="NC" x="-20.32" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_M0_WIFI">
+<description>Adafruit Feather M0 WiFi</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="WAKE" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A1)" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="(A0)" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.794" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_HUZZAH32">
+<description>Adafruit Feather Huzzah32</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="27" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="33" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="15" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="32" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="14" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="21" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="NC" x="-20.32" y="-17.78" visible="off" length="short" direction="nc" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_WICED">
+<description>Adafruit Feather WICED
+(WARNING - UNTESTED: Verify all connections)</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-15.24" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="-5.08" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="SWCLK" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="A4" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="B4" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="A15" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="C7" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="C5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="B5" x="0" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="DFU" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-10.16" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="C2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="C3" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="WAKE" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="RTC" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+<text x="-16.764" y="2.286" size="1.27" layer="94" align="center">WARNING: Untested!
+Verify all connections!</text>
+<pin name="SWDIO" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+</symbol>
+<symbol name="FEATHER_NRF52840">
+<description>Adafruit Feather nRF52840</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="D2" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_NRF52">
+<description>Adafruit Feather nRF52</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="16" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="15" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="7" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="31" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="30" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="27" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="DFU" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="RXD" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="TXD" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_32U4_BTLE">
+<description>Adafruit Feather 32u4</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="DFU" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="1TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="0RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_M0_BTLE">
+<description>Adafruit Feather M0 BLE</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="DFU" x="45.72" y="-20.32" visible="pin" length="middle" swaplevel="1" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MISO" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="1TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="0RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.794" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_32U4_FONA">
+<description>Adafruit Feather 32u4 FONA</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="KEY" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MISO" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="FEATHER_32U4_LORA">
+<description>Adafruit Feather 32u4 LORA</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="IO1" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MI" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MO" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+<pin name="IO2" x="53.34" y="7.62" length="middle" rot="R180"/>
+<pin name="IO3" x="53.34" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="FEATHER_M0_LORA">
+<description>Adafruit Feather M0 LoRa</description>
+<wire x1="-33.02" y1="15.24" x2="48.26" y2="15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-15.24" x2="-33.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-15.24" x2="-33.02" y2="15.24" width="0.254" layer="94"/>
+<pin name="BAT" x="-10.16" y="20.32" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="USB" x="0" y="20.32" visible="pin" length="middle" direction="out" rot="R270"/>
+<pin name="13" x="5.08" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="12" x="10.16" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="11" x="15.24" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="10" x="20.32" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="9" x="25.4" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="6" x="30.48" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="5" x="35.56" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="40.64" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="45.72" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="IO1" x="45.72" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="EN" x="-5.08" y="20.32" visible="pin" length="middle" direction="pas" rot="R270"/>
+<pin name="MIS" x="30.48" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="MOS" x="25.4" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="SCK" x="20.32" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A3" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="TX1" x="40.64" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="AREF" x="-20.32" y="-20.32" visible="pin" length="middle" direction="in" rot="R90"/>
+<pin name="3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="out" rot="R90"/>
+<pin name="RST" x="-30.48" y="-20.32" visible="pin" length="middle" direction="pas" rot="R90"/>
+<pin name="RX0" x="35.56" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<text x="2.54" y="-1.27" size="2.54" layer="95">&gt;NAME</text>
+<pin name="IO2" x="53.34" y="7.62" length="middle" rot="R180"/>
+<pin name="IO3" x="53.34" y="2.54" length="middle" rot="R180"/>
+<pin name="IO5" x="53.34" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="ITSY-M0_EXP" prefix="A">
-<description>Adafruit ItstBitsy M0 Express
+<description>&lt;b&gt;Adafruit ItstBitsy M0 Express&lt;/b&gt;
 
-(ATSAMD21G18 32-bit Cortex M0+)</description>
+(ATSAMD21G18 32-bit Cortex M0+ @ 48mHz)</description>
 <gates>
 <gate name="G$1" symbol="ITSY-M0" x="-33.02" y="15.24"/>
 </gates>
@@ -1148,7 +2664,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ITSY-M0_EXPRESS" value="ITSY-M0_EXPRESS"/>
+<attribute name="ADAFRUIT" value="3727"/>
 </technology>
 </technologies>
 </device>
@@ -1186,8 +2702,8 @@
 <connect gate="G$1" pin="BAT" pad="BAT"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND2" pad="G2"/>
-<connect gate="G$1" pin="GND3" pad="G3"/>
+<connect gate="G$1" pin="GND@2" pad="G2"/>
+<connect gate="G$1" pin="GND@3" pad="G3"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
@@ -1200,7 +2716,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ISTY_32U4_3V" value="ISTY_32U4_3V"/>
+<attribute name="ADAFRUIT" value="3677"/>
 </technology>
 </technologies>
 </device>
@@ -1237,8 +2753,8 @@
 <connect gate="G$1" pin="BAT" pad="BAT"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND2" pad="G"/>
-<connect gate="G$1" pin="GND3" pad="G3"/>
+<connect gate="G$1" pin="GND@2" pad="G"/>
+<connect gate="G$1" pin="GND@3" pad="G3"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
@@ -1252,16 +2768,16 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ISTY_32U4_3V" value="ISTY_32U4_3V"/>
+<attribute name="ADAFRUIT" value="3675"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="ITSY-M4_EXP">
-<description>Adafruit ItsyBitsy M4 Express
+<description>&lt;b&gt;Adafruit ItsyBitsy M4 Express&lt;/b&gt;
 
-(ATSAMD51 32-bit Cortex M4)</description>
+(ATSAMD51 32-bit Cortex M4 @ 120mHz)</description>
 <gates>
 <gate name="G$1" symbol="ITSY-M4" x="-5.08" y="2.54"/>
 </gates>
@@ -1304,7 +2820,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ITSY-M4_EXPRESS" value="ITSY-M4_EXPRESS"/>
+<attribute name="ADAFRUIT" value="3800"/>
 </technology>
 </technologies>
 </device>
@@ -1330,7 +2846,9 @@
 <connect gate="G$1" pin="WP" pad="WP"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1895"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1355,7 +2873,9 @@
 <connect gate="G$1" pin="WP" pad="WP"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1897"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1382,7 +2902,9 @@
 <connect gate="G$1" pin="OE" pad="OE"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1875"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1405,7 +2927,9 @@
 <connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1782"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1423,13 +2947,16 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="2748"/>
+<attribute name="EVERLIGHT" value="ALS-PT19"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="TEMT6000_BREAKOUT">
-<description>SparkFun Ambient Light Sensor Breakout - TEMT6000</description>
+<description>&lt;b&gt;SparkFun Ambient Light Sensor Breakout&lt;/b&gt; - TEMT6000</description>
 <gates>
 <gate name="G$1" symbol="TEMT6000" x="0" y="-7.62"/>
 </gates>
@@ -1441,7 +2968,9 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPARKFUN" value="TEMT6000x01"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1466,7 +2995,9 @@
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1501"/>
+</technology>
 </technologies>
 </device>
 <device name="3V" package="TRINKET_3V">
@@ -1483,7 +3014,9 @@
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="1500"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1509,15 +3042,17 @@
 <connect gate="G$1" pin="VBAT" pad="BAT"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="3500"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="ITSY-M0-EXP-NE" prefix="A">
-<description>Adafruit ItstBitsy M0
+<description>&lt;b&gt;Adafruit ItstBitsy M0 - No End&lt;/b&gt;
 
-(ATSAMD21G18 32-bit Cortex M0+)
+(ATSAMD21G18 32-bit Cortex M0+ @ 48mHz))
 
 5 End pins removed for easier routing</description>
 <gates>
@@ -1556,7 +3091,953 @@
 <connect gate="G$1" pin="VHI" pad="VHI"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ADAFRUIT" value="3727"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M4-EXP">
+<description>&lt;b&gt;Adafruit Feather M4 Express&lt;/b&gt;
+
+(ATSAMD51 - 120 MHz Cortex M4)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_BASIC" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-BASIC">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3857"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M0">
+<description>&lt;b&gt;Adafruit Feather M0 Boards &lt;/b&gt;
+
+(ATSAMD21 - 48 MHz Cortex M0)
+
+(Express, Basic Proto, Adalogger)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="EXPRESS" package="FEATHER-M0">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3403"/>
+</technology>
+</technologies>
+</device>
+<device name="BASIC_PROTO" package="FEATHER-M0">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2772"/>
+</technology>
+</technologies>
+</device>
+<device name="ADALOGGER" package="FEATHER-M0">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2796"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-328P">
+<description>&lt;b&gt;Adafruit Feather 328P &lt;/b&gt;
+
+ATmega328P - 8 MHz</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_328P" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-328P">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3458"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-32U4">
+<description>&lt;b&gt;Adafruit Feather 32u4 Basic Proto&lt;/b&gt;
+
+ATmega32u4 - 8 MHz</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="_" package="FEATHER-M0">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2771"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-HUZZAH">
+<description>&lt;b&gt;Adafruit Feather HUZZAH ESP8266 &lt;/b&gt;
+
+(SP8266 WiFi - 80 MHz)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_HUZZAH" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-HUZZAH">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="CHPD" pad="CHPD"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NC1" pad="NC1"/>
+<connect gate="G$1" pin="NC2" pad="NC2"/>
+<connect gate="G$1" pin="NC3" pad="NC3"/>
+<connect gate="G$1" pin="NC4" pad="NC4"/>
+<connect gate="G$1" pin="NC5" pad="NC5"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2821"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M0-WIFI">
+<description>&lt;b&gt;Adafruit Feather M0 WiFi Boards &lt;/b&gt;
+ 
+ ATSAMD21 - 48 MHz Cortex M0, ATWINC1500
+
+ (WiFi &amp; WiFi uFL)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0_WIFI" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-M0-WIFI">
+<connects>
+<connect gate="G$1" pin="(A0)" pad="(A0)"/>
+<connect gate="G$1" pin="(A1)" pad="(A1)"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+<connect gate="G$1" pin="WAKE" pad="WAKE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3010, 3061"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-HUZZAH32">
+<description>&lt;b&gt;Adafruit Feather HUZZAH32 &lt;/b&gt;
+
+(ESP32 - 240 MHz)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_HUZZAH32" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-HUZZAH32">
+<connects>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3405"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-WICED">
+<description>&lt;b&gt;Adafruit Feather WICED&lt;/b&gt;
+
+(Cypress WICED w/ STM32F205 ARM Cortex M3 processor @ 120MHz)
+
+Warning - Untested: Verify all connections!</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_WICED" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-WICED">
+<connects>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A15" pad="A15"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C5" pad="C5"/>
+<connect gate="G$1" pin="C7" pad="C7"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RTC" pad="RTC"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+<connect gate="G$1" pin="WAKE" pad="WAKE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3056"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-NRF52840">
+<description>&lt;b&gt;Adafruit Feather nRF52840&lt;/b&gt;
+
+(ARM Cortex M4F @ 64MHz)
+
+(Express, Sense)</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_NRF52840" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EXPRESS" package="FEATHER-NRF52840">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="4062"/>
+</technology>
+</technologies>
+</device>
+<device name="SENSE" package="FEATHER-NRF52840">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="4516"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-NRF52-BTLE">
+<description>&lt;b&gt;Adafruit Feather nRF52 Bluefruit LE and nRF52 BLE Pro&lt;/b&gt;
+
+(ARM Cortex M4F @ 64MHz)
+
+Bluefruit BTLE module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_NRF52" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-NRF52">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="3V" pad="3V 3V_"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3406, 3574"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-32U4-BTLE">
+<description>&lt;b&gt;Adafruit Feather 32u4 Bluefruit LE&lt;/b&gt;
+
+(ATmega32u4 - 8 MHz)
+
+Bluefruit BTLE module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_32U4_BTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-32U4-BTLE">
+<connects>
+<connect gate="G$1" pin="0RX" pad="0RX"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="1TX" pad="1TX"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2829"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M0-BTLE">
+<description>&lt;b&gt;Adafruit Feather M0 Bluefruit LE&lt;/b&gt;
+
+(ATSAMD21 - 48 MHz Cortex M0)
+
+Bluefruit BTLE module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0_BTLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-M0-BTLE">
+<connects>
+<connect gate="G$1" pin="0RX" pad="0RX"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="1TX" pad="1TX"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="(A0)"/>
+<connect gate="G$1" pin="A1" pad="(A1)"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="DFU" pad="DFU"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MI"/>
+<connect gate="G$1" pin="MOSI" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="2995"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-32U4-FONA">
+<description>&lt;b&gt;Adafruit Feather 32u4 FONA&lt;/b&gt;
+
+(ATmega32u4 - 8 MHz)
+
+FONA800 module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_32U4_FONA" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-32U4-FONA">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="KEY" pad="KEY"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3027"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-32U4-LORA">
+<description>&lt;b&gt;Adafruit Feather 32u4 LoRa&lt;/b&gt;
+
+(ATmega32u4 - 8 MHz)
+
+RFM96 433mHz or RFM95 915mHz LoRa module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_32U4_LORA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-32U4-LORA">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO1" pad="IO1"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO3" pad="IO3"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3078, 3079"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M0-LORA">
+<description>&lt;b&gt;Adafruit Feather M0 LoRa&lt;/b&gt;
+
+(ATSAMD21 - 48 MHz Cortex M0)
+
+RFM96 433mHz or RFM95 915mHz LoRa module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0_LORA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-M0-LORA">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO1" pad="IO1"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO3" pad="IO3"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="MIS" pad="MIS"/>
+<connect gate="G$1" pin="MOS" pad="MOS"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX0" pad="RX0"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX1" pad="TX1"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3178, 3179"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-32U4-RFM69HCW">
+<description>&lt;b&gt;Adafruit Feather 32u4 RFM69HCW&lt;/b&gt;
+
+(ATmega32u4 - 8 MHz)
+
+RFM69HCW 433mHz or 915mHz Packet Radio module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_32U4_LORA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-32U4-LORA">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO1" pad="IO1"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO3" pad="IO3"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3076, 3077"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEATHER-M0-RFM69HCW">
+<description>&lt;b&gt;Adafruit Feather M0 RFM69HCW&lt;/b&gt;
+
+(ATSAMD21 - 48 MHz Cortex M0)
+
+RFM69HCW 433mHz or 915mHz Packet Radio module</description>
+<gates>
+<gate name="G$1" symbol="FEATHER_M0_LORA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FEATHER-M0-LORA">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO1" pad="IO1"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO3" pad="IO3"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="MIS" pad="MIS"/>
+<connect gate="G$1" pin="MOS" pad="MOS"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX0" pad="RX0"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX1" pad="TX1"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADAFRUIT" value="3176, 3177"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1564,4 +4045,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
