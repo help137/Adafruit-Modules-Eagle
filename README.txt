@@ -29,7 +29,7 @@ the location and choose `Yes` to create the directory.
    new `external_lbrs` folder.
 7. Restart Eagle. The library should be now be usable. 
 
-#Included:
+### Included:
 
 1500 - Original Trinket 3V  
 1501 - Original Trinket 5V  
@@ -44,6 +44,8 @@ the location and choose `Yes` to create the directory.
 3727 - Itsy-Bitsy M0 Express No End Pins (Altered layout for easier routing when you don't need end row of pins.)  
 3800 - Itsy-Bitsy M4 Express  
 3500 - Trinket M0  
+4600 - QT Py  
+2590 - Metro Mini  
 2771 - Feather 32u4 Basic Proto  
 2772 - Feather M0 Basic Proto  
 2796 - Feather M0 Adalogger  
